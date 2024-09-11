@@ -5,6 +5,14 @@ import json
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
+listOfUser = ["alchemist","ancient-apparition"]
+
+# i want to call the code below to replace https://www.dotabuff.com/heroes/listOfuser/counters and store all response to name of json for each listOfUser
+
+
+
+
+
 
 response = requests.get('https://www.dotabuff.com/heroes/alchemist/counters', headers=headers, verify=False)
 
