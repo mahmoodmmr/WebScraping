@@ -1,1 +1,6 @@
 https://www.dotabuff.com/heroes/alchemist/counters
+
+
+
+### Get All Hero Matchups
+GET http://localhost:13800/api/api/hero-matchups?hero_name=HeroName&variable=best

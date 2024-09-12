@@ -1,0 +1,746 @@
+[
+    {
+        "hero_name": "Warlock",
+        "disadvantage_percentage": "4.96%",
+        "win_rate": "40.14%",
+        "matches": "39,853"
+    },
+    {
+        "hero_name": "Dark Seer",
+        "disadvantage_percentage": "4.62%",
+        "win_rate": "44.48%",
+        "matches": "12,688"
+    },
+    {
+        "hero_name": "Sand King",
+        "disadvantage_percentage": "4.50%",
+        "win_rate": "42.98%",
+        "matches": "45,093"
+    },
+    {
+        "hero_name": "Phantom Lancer",
+        "disadvantage_percentage": "3.93%",
+        "win_rate": "49.86%",
+        "matches": "23,890"
+    },
+    {
+        "hero_name": "Naga Siren",
+        "disadvantage_percentage": "3.69%",
+        "win_rate": "48.85%",
+        "matches": "9,718"
+    },
+    {
+        "hero_name": "Tidehunter",
+        "disadvantage_percentage": "3.58%",
+        "win_rate": "47.34%",
+        "matches": "26,620"
+    },
+    {
+        "hero_name": "Phoenix",
+        "disadvantage_percentage": "3.56%",
+        "win_rate": "46.72%",
+        "matches": "23,618"
+    },
+    {
+        "hero_name": "Medusa",
+        "disadvantage_percentage": "3.02%",
+        "win_rate": "42.06%",
+        "matches": "41,570"
+    },
+    {
+        "hero_name": "Underlord",
+        "disadvantage_percentage": "2.73%",
+        "win_rate": "44.05%",
+        "matches": "25,037"
+    },
+    {
+        "hero_name": "Earthshaker",
+        "disadvantage_percentage": "2.66%",
+        "win_rate": "47.86%",
+        "matches": "81,241"
+    },
+    {
+        "hero_name": "Kunkka",
+        "disadvantage_percentage": "2.63%",
+        "win_rate": "45.47%",
+        "matches": "27,432"
+    },
+    {
+        "hero_name": "Jakiro",
+        "disadvantage_percentage": "2.53%",
+        "win_rate": "46.98%",
+        "matches": "66,884"
+    },
+    {
+        "hero_name": "Timbersaw",
+        "disadvantage_percentage": "2.36%",
+        "win_rate": "47.25%",
+        "matches": "39,707"
+    },
+    {
+        "hero_name": "Axe",
+        "disadvantage_percentage": "2.08%",
+        "win_rate": "45.15%",
+        "matches": "90,000"
+    },
+    {
+        "hero_name": "Monkey King",
+        "disadvantage_percentage": "2.02%",
+        "win_rate": "53.47%",
+        "matches": "42,874"
+    },
+    {
+        "hero_name": "Pangolier",
+        "disadvantage_percentage": "1.98%",
+        "win_rate": "51.58%",
+        "matches": "12,559"
+    },
+    {
+        "hero_name": "Terrorblade",
+        "disadvantage_percentage": "1.95%",
+        "win_rate": "52.28%",
+        "matches": "11,892"
+    },
+    {
+        "hero_name": "Lina",
+        "disadvantage_percentage": "1.93%",
+        "win_rate": "48.98%",
+        "matches": "77,648"
+    },
+    {
+        "hero_name": "Brewmaster",
+        "disadvantage_percentage": "1.91%",
+        "win_rate": "48.43%",
+        "matches": "4,631"
+    },
+    {
+        "hero_name": "Crystal Maiden",
+        "disadvantage_percentage": "1.85%",
+        "win_rate": "47.95%",
+        "matches": "58,009"
+    },
+    {
+        "hero_name": "Dawnbreaker",
+        "disadvantage_percentage": "1.66%",
+        "win_rate": "48.20%",
+        "matches": "15,918"
+    },
+    {
+        "hero_name": "Anti-Mage",
+        "disadvantage_percentage": "1.64%",
+        "win_rate": "48.76%",
+        "matches": "53,359"
+    },
+    {
+        "hero_name": "Troll Warlord",
+        "disadvantage_percentage": "1.62%",
+        "win_rate": "47.87%",
+        "matches": "25,406"
+    },
+    {
+        "hero_name": "Leshrac",
+        "disadvantage_percentage": "1.48%",
+        "win_rate": "48.67%",
+        "matches": "17,121"
+    },
+    {
+        "hero_name": "Ember Spirit",
+        "disadvantage_percentage": "1.43%",
+        "win_rate": "49.52%",
+        "matches": "42,074"
+    },
+    {
+        "hero_name": "Sven",
+        "disadvantage_percentage": "1.39%",
+        "win_rate": "50.49%",
+        "matches": "40,107"
+    },
+    {
+        "hero_name": "Lich",
+        "disadvantage_percentage": "1.38%",
+        "win_rate": "44.99%",
+        "matches": "43,763"
+    },
+    {
+        "hero_name": "Bristleback",
+        "disadvantage_percentage": "1.34%",
+        "win_rate": "48.75%",
+        "matches": "45,792"
+    },
+    {
+        "hero_name": "Necrophos",
+        "disadvantage_percentage": "1.29%",
+        "win_rate": "46.00%",
+        "matches": "51,386"
+    },
+    {
+        "hero_name": "Invoker",
+        "disadvantage_percentage": "1.23%",
+        "win_rate": "51.63%",
+        "matches": "66,114"
+    },
+    {
+        "hero_name": "Winter Wyvern",
+        "disadvantage_percentage": "1.16%",
+        "win_rate": "48.70%",
+        "matches": "15,190"
+    },
+    {
+        "hero_name": "Meepo",
+        "disadvantage_percentage": "1.13%",
+        "win_rate": "49.67%",
+        "matches": "7,147"
+    },
+    {
+        "hero_name": "Witch Doctor",
+        "disadvantage_percentage": "1.13%",
+        "win_rate": "46.17%",
+        "matches": "77,621"
+    },
+    {
+        "hero_name": "Tiny",
+        "disadvantage_percentage": "1.12%",
+        "win_rate": "51.27%",
+        "matches": "40,947"
+    },
+    {
+        "hero_name": "Batrider",
+        "disadvantage_percentage": "1.09%",
+        "win_rate": "56.03%",
+        "matches": "5,392"
+    },
+    {
+        "hero_name": "Treant Protector",
+        "disadvantage_percentage": "1.03%",
+        "win_rate": "46.64%",
+        "matches": "24,256"
+    },
+    {
+        "hero_name": "Enigma",
+        "disadvantage_percentage": "1.03%",
+        "win_rate": "49.50%",
+        "matches": "17,280"
+    },
+    {
+        "hero_name": "Windranger",
+        "disadvantage_percentage": "1.02%",
+        "win_rate": "49.06%",
+        "matches": "69,670"
+    },
+    {
+        "hero_name": "Luna",
+        "disadvantage_percentage": "0.90%",
+        "win_rate": "48.30%",
+        "matches": "42,836"
+    },
+    {
+        "hero_name": "Techies",
+        "disadvantage_percentage": "0.90%",
+        "win_rate": "51.64%",
+        "matches": "38,134"
+    },
+    {
+        "hero_name": "Dazzle",
+        "disadvantage_percentage": "0.88%",
+        "win_rate": "51.17%",
+        "matches": "38,334"
+    },
+    {
+        "hero_name": "Phantom Assassin",
+        "disadvantage_percentage": "0.82%",
+        "win_rate": "47.86%",
+        "matches": "110,597"
+    },
+    {
+        "hero_name": "Primal Beast",
+        "disadvantage_percentage": "0.81%",
+        "win_rate": "50.91%",
+        "matches": "22,866"
+    },
+    {
+        "hero_name": "Centaur Warrunner",
+        "disadvantage_percentage": "0.77%",
+        "win_rate": "46.84%",
+        "matches": "38,987"
+    },
+    {
+        "hero_name": "Hoodwink",
+        "disadvantage_percentage": "0.75%",
+        "win_rate": "52.36%",
+        "matches": "57,908"
+    },
+    {
+        "hero_name": "Shadow Fiend",
+        "disadvantage_percentage": "0.71%",
+        "win_rate": "50.72%",
+        "matches": "74,549"
+    },
+    {
+        "hero_name": "Magnus",
+        "disadvantage_percentage": "0.68%",
+        "win_rate": "51.37%",
+        "matches": "26,886"
+    },
+    {
+        "hero_name": "Venomancer",
+        "disadvantage_percentage": "0.68%",
+        "win_rate": "51.83%",
+        "matches": "43,579"
+    },
+    {
+        "hero_name": "Snapfire",
+        "disadvantage_percentage": "0.66%",
+        "win_rate": "53.59%",
+        "matches": "27,213"
+    },
+    {
+        "hero_name": "Dragon Knight",
+        "disadvantage_percentage": "0.64%",
+        "win_rate": "50.36%",
+        "matches": "49,258"
+    },
+    {
+        "hero_name": "Gyrocopter",
+        "disadvantage_percentage": "0.56%",
+        "win_rate": "52.03%",
+        "matches": "24,679"
+    },
+    {
+        "hero_name": "Rubick",
+        "disadvantage_percentage": "0.36%",
+        "win_rate": "52.03%",
+        "matches": "85,868"
+    },
+    {
+        "hero_name": "Alchemist",
+        "disadvantage_percentage": "0.32%",
+        "win_rate": "49.26%",
+        "matches": "24,756"
+    },
+    {
+        "hero_name": "Beastmaster",
+        "disadvantage_percentage": "0.26%",
+        "win_rate": "54.52%",
+        "matches": "9,676"
+    },
+    {
+        "hero_name": "Elder Titan",
+        "disadvantage_percentage": "0.13%",
+        "win_rate": "49.31%",
+        "matches": "8,965"
+    },
+    {
+        "hero_name": "Tusk",
+        "disadvantage_percentage": "0.05%",
+        "win_rate": "54.36%",
+        "matches": "19,850"
+    },
+    {
+        "hero_name": "Puck",
+        "disadvantage_percentage": "-0.04%",
+        "win_rate": "51.32%",
+        "matches": "27,647"
+    },
+    {
+        "hero_name": "Juggernaut",
+        "disadvantage_percentage": "-0.09%",
+        "win_rate": "47.90%",
+        "matches": "85,791"
+    },
+    {
+        "hero_name": "Disruptor",
+        "disadvantage_percentage": "-0.11%",
+        "win_rate": "49.96%",
+        "matches": "30,127"
+    },
+    {
+        "hero_name": "Dark Willow",
+        "disadvantage_percentage": "-0.14%",
+        "win_rate": "50.74%",
+        "matches": "26,273"
+    },
+    {
+        "hero_name": "Ringmaster",
+        "disadvantage_percentage": "-0.14%",
+        "win_rate": "48.17%",
+        "matches": "92,542"
+    },
+    {
+        "hero_name": "Muerta",
+        "disadvantage_percentage": "-0.17%",
+        "win_rate": "52.28%",
+        "matches": "13,385"
+    },
+    {
+        "hero_name": "Lion",
+        "disadvantage_percentage": "-0.21%",
+        "win_rate": "50.77%",
+        "matches": "105,100"
+    },
+    {
+        "hero_name": "Undying",
+        "disadvantage_percentage": "-0.21%",
+        "win_rate": "47.64%",
+        "matches": "34,707"
+    },
+    {
+        "hero_name": "Earth Spirit",
+        "disadvantage_percentage": "-0.24%",
+        "win_rate": "51.31%",
+        "matches": "11,729"
+    },
+    {
+        "hero_name": "Spectre",
+        "disadvantage_percentage": "-0.24%",
+        "win_rate": "49.38%",
+        "matches": "36,251"
+    },
+    {
+        "hero_name": "Keeper of the Light",
+        "disadvantage_percentage": "-0.29%",
+        "win_rate": "53.48%",
+        "matches": "11,235"
+    },
+    {
+        "hero_name": "Void Spirit",
+        "disadvantage_percentage": "-0.30%",
+        "win_rate": "48.03%",
+        "matches": "20,969"
+    },
+    {
+        "hero_name": "Morphling",
+        "disadvantage_percentage": "-0.34%",
+        "win_rate": "56.02%",
+        "matches": "23,439"
+    },
+    {
+        "hero_name": "Omniknight",
+        "disadvantage_percentage": "-0.35%",
+        "win_rate": "46.63%",
+        "matches": "22,717"
+    },
+    {
+        "hero_name": "Riki",
+        "disadvantage_percentage": "-0.40%",
+        "win_rate": "48.46%",
+        "matches": "26,116"
+    },
+    {
+        "hero_name": "Io",
+        "disadvantage_percentage": "-0.40%",
+        "win_rate": "50.05%",
+        "matches": "15,254"
+    },
+    {
+        "hero_name": "Storm Spirit",
+        "disadvantage_percentage": "-0.44%",
+        "win_rate": "50.01%",
+        "matches": "32,470"
+    },
+    {
+        "hero_name": "Grimstroke",
+        "disadvantage_percentage": "-0.48%",
+        "win_rate": "52.24%",
+        "matches": "21,274"
+    },
+    {
+        "hero_name": "Abaddon",
+        "disadvantage_percentage": "-0.53%",
+        "win_rate": "44.35%",
+        "matches": "33,478"
+    },
+    {
+        "hero_name": "Weaver",
+        "disadvantage_percentage": "-0.62%",
+        "win_rate": "50.24%",
+        "matches": "47,803"
+    },
+    {
+        "hero_name": "Spirit Breaker",
+        "disadvantage_percentage": "-0.63%",
+        "win_rate": "50.12%",
+        "matches": "62,621"
+    },
+    {
+        "hero_name": "Doom",
+        "disadvantage_percentage": "-0.67%",
+        "win_rate": "53.66%",
+        "matches": "20,223"
+    },
+    {
+        "hero_name": "Sniper",
+        "disadvantage_percentage": "-0.74%",
+        "win_rate": "50.87%",
+        "matches": "98,452"
+    },
+    {
+        "hero_name": "Mirana",
+        "disadvantage_percentage": "-0.80%",
+        "win_rate": "53.98%",
+        "matches": "43,123"
+    },
+    {
+        "hero_name": "Razor",
+        "disadvantage_percentage": "-0.81%",
+        "win_rate": "49.59%",
+        "matches": "31,886"
+    },
+    {
+        "hero_name": "Mars",
+        "disadvantage_percentage": "-0.82%",
+        "win_rate": "53.24%",
+        "matches": "28,241"
+    },
+    {
+        "hero_name": "Slark",
+        "disadvantage_percentage": "-0.85%",
+        "win_rate": "50.92%",
+        "matches": "52,094"
+    },
+    {
+        "hero_name": "Marci",
+        "disadvantage_percentage": "-0.97%",
+        "win_rate": "50.78%",
+        "matches": "25,385"
+    },
+    {
+        "hero_name": "Nature's Prophet",
+        "disadvantage_percentage": "-0.99%",
+        "win_rate": "53.58%",
+        "matches": "49,012"
+    },
+    {
+        "hero_name": "Bloodseeker",
+        "disadvantage_percentage": "-1.02%",
+        "win_rate": "49.08%",
+        "matches": "21,409"
+    },
+    {
+        "hero_name": "Lifestealer",
+        "disadvantage_percentage": "-1.03%",
+        "win_rate": "50.40%",
+        "matches": "31,634"
+    },
+    {
+        "hero_name": "Ancient Apparition",
+        "disadvantage_percentage": "-1.14%",
+        "win_rate": "48.96%",
+        "matches": "31,794"
+    },
+    {
+        "hero_name": "Clockwerk",
+        "disadvantage_percentage": "-1.23%",
+        "win_rate": "49.11%",
+        "matches": "23,437"
+    },
+    {
+        "hero_name": "Enchantress",
+        "disadvantage_percentage": "-1.24%",
+        "win_rate": "52.89%",
+        "matches": "16,479"
+    },
+    {
+        "hero_name": "Lycan",
+        "disadvantage_percentage": "-1.24%",
+        "win_rate": "50.61%",
+        "matches": "10,746"
+    },
+    {
+        "hero_name": "Shadow Demon",
+        "disadvantage_percentage": "-1.29%",
+        "win_rate": "52.28%",
+        "matches": "12,558"
+    },
+    {
+        "hero_name": "Broodmother",
+        "disadvantage_percentage": "-1.31%",
+        "win_rate": "50.76%",
+        "matches": "12,950"
+    },
+    {
+        "hero_name": "Slardar",
+        "disadvantage_percentage": "-1.43%",
+        "win_rate": "52.15%",
+        "matches": "38,195"
+    },
+    {
+        "hero_name": "Silencer",
+        "disadvantage_percentage": "-1.52%",
+        "win_rate": "48.68%",
+        "matches": "43,931"
+    },
+    {
+        "hero_name": "Queen of Pain",
+        "disadvantage_percentage": "-1.53%",
+        "win_rate": "51.20%",
+        "matches": "58,050"
+    },
+    {
+        "hero_name": "Wraith King",
+        "disadvantage_percentage": "-1.54%",
+        "win_rate": "45.36%",
+        "matches": "69,933"
+    },
+    {
+        "hero_name": "Lone Druid",
+        "disadvantage_percentage": "-1.59%",
+        "win_rate": "49.93%",
+        "matches": "10,096"
+    },
+    {
+        "hero_name": "Arc Warden",
+        "disadvantage_percentage": "-1.69%",
+        "win_rate": "48.29%",
+        "matches": "16,714"
+    },
+    {
+        "hero_name": "Death Prophet",
+        "disadvantage_percentage": "-1.74%",
+        "win_rate": "52.11%",
+        "matches": "17,173"
+    },
+    {
+        "hero_name": "Shadow Shaman",
+        "disadvantage_percentage": "-1.80%",
+        "win_rate": "49.02%",
+        "matches": "62,983"
+    },
+    {
+        "hero_name": "Templar Assassin",
+        "disadvantage_percentage": "-1.85%",
+        "win_rate": "57.19%",
+        "matches": "18,704"
+    },
+    {
+        "hero_name": "Zeus",
+        "disadvantage_percentage": "-1.86%",
+        "win_rate": "51.31%",
+        "matches": "61,515"
+    },
+    {
+        "hero_name": "Tinker",
+        "disadvantage_percentage": "-1.91%",
+        "win_rate": "48.67%",
+        "matches": "24,172"
+    },
+    {
+        "hero_name": "Bounty Hunter",
+        "disadvantage_percentage": "-1.93%",
+        "win_rate": "50.91%",
+        "matches": "31,954"
+    },
+    {
+        "hero_name": "Bane",
+        "disadvantage_percentage": "-2.00%",
+        "win_rate": "52.42%",
+        "matches": "13,710"
+    },
+    {
+        "hero_name": "Ursa",
+        "disadvantage_percentage": "-2.03%",
+        "win_rate": "52.60%",
+        "matches": "50,055"
+    },
+    {
+        "hero_name": "Pudge",
+        "disadvantage_percentage": "-2.05%",
+        "win_rate": "50.77%",
+        "matches": "137,933"
+    },
+    {
+        "hero_name": "Vengeful Spirit",
+        "disadvantage_percentage": "-2.11%",
+        "win_rate": "50.03%",
+        "matches": "42,324"
+    },
+    {
+        "hero_name": "Skywrath Mage",
+        "disadvantage_percentage": "-2.14%",
+        "win_rate": "50.57%",
+        "matches": "39,703"
+    },
+    {
+        "hero_name": "Drow Ranger",
+        "disadvantage_percentage": "-2.23%",
+        "win_rate": "52.40%",
+        "matches": "53,551"
+    },
+    {
+        "hero_name": "Faceless Void",
+        "disadvantage_percentage": "-2.29%",
+        "win_rate": "54.82%",
+        "matches": "45,090"
+    },
+    {
+        "hero_name": "Clinkz",
+        "disadvantage_percentage": "-2.35%",
+        "win_rate": "51.13%",
+        "matches": "26,512"
+    },
+    {
+        "hero_name": "Pugna",
+        "disadvantage_percentage": "-2.38%",
+        "win_rate": "54.23%",
+        "matches": "19,083"
+    },
+    {
+        "hero_name": "Legion Commander",
+        "disadvantage_percentage": "-2.41%",
+        "win_rate": "49.36%",
+        "matches": "87,228"
+    },
+    {
+        "hero_name": "Nyx Assassin",
+        "disadvantage_percentage": "-2.54%",
+        "win_rate": "51.39%",
+        "matches": "42,242"
+    },
+    {
+        "hero_name": "Visage",
+        "disadvantage_percentage": "-2.60%",
+        "win_rate": "50.88%",
+        "matches": "10,981"
+    },
+    {
+        "hero_name": "Oracle",
+        "disadvantage_percentage": "-2.60%",
+        "win_rate": "49.39%",
+        "matches": "18,738"
+    },
+    {
+        "hero_name": "Night Stalker",
+        "disadvantage_percentage": "-2.76%",
+        "win_rate": "49.74%",
+        "matches": "27,069"
+    },
+    {
+        "hero_name": "Outworld Destroyer",
+        "disadvantage_percentage": "-2.79%",
+        "win_rate": "50.67%",
+        "matches": "26,991"
+    },
+    {
+        "hero_name": "Chen",
+        "disadvantage_percentage": "-2.94%",
+        "win_rate": "59.57%",
+        "matches": "1,922"
+    },
+    {
+        "hero_name": "Ogre Magi",
+        "disadvantage_percentage": "-3.94%",
+        "win_rate": "52.32%",
+        "matches": "82,389"
+    },
+    {
+        "hero_name": "Viper",
+        "disadvantage_percentage": "-4.01%",
+        "win_rate": "53.54%",
+        "matches": "41,986"
+    },
+    {
+        "hero_name": "Huskar",
+        "disadvantage_percentage": "-4.40%",
+        "win_rate": "56.17%",
+        "matches": "24,391"
+    }
+]
