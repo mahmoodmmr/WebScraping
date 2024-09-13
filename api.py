@@ -3,59 +3,79 @@ import sqlite3
 
 app = Flask(__name__)
 
-# Function to connect to the SQLite database
+# Function to get a database connection
 def get_db_connection():
     conn = sqlite3.connect('heroes.db')
-    conn.row_factory = sqlite3.Row  # To return rows as dictionaries
+    conn.row_factory = sqlite3.Row  # So we get dict-like row objects
     return conn
 
-# API to get hero matchups based on the hero name and sorting by best or worst
-@app.route('/api/hero-matchups', methods=['GET'])
-def get_hero_matchups():
-    # Get the query parameters
-    hero_name = request.args.get('hero_name')
-    variable = request.args.get('variable')  # 'best' or 'worst'
+# Route to get matchups by hero_id and sort by win rate
+@app.route('/matchups', methods=['GET'])
+def get_matchups():
+    hero_id = request.args.get('hero_id')
+    order = request.args.get('order', 'asc')  # default to ascending order if not provided
     
-    if not hero_name or not variable:
-        return jsonify({'error': 'Missing required parameters'}), 400
+    if not hero_id:
+        return jsonify({"error": "hero_id is required"}), 400
     
-    # Connect to the database
+    # Ensure the sorting order is either asc or desc
+    if order not in ['asc', 'desc']:
+        return jsonify({"error": "Invalid order. Use 'asc' or 'desc'."}), 400
+    
     conn = get_db_connection()
+    cursor = conn.cursor()
     
-    # Define the query
-    if variable == 'best':
-        # Get the matchups with the highest win_rate (best matchups)
-        query = '''
-        SELECT m.*, h.name as opponent_name
-        FROM matchup m
-        JOIN hero h ON m.heroId = h.id
-        WHERE h.name = ?
-        ORDER BY m.win_rate DESC
-        LIMIT 5
-        '''
-    elif variable == 'worst':
-        # Get the matchups with the lowest win_rate (worst matchups)
-        query = '''
-        SELECT m.*, h.name as opponent_name
-        FROM matchup m
-        JOIN hero h ON m.heroId = h.id
-        WHERE h.name = ?
-        ORDER BY m.win_rate ASC
-        LIMIT 5
-        '''
-    else:
-        return jsonify({'error': 'Invalid value for variable. Use "best" or "worst".'}), 400
-
-    # Execute the query
-    matchups = conn.execute(query, (hero_name,)).fetchall()
+    # Query the matchups table
+    query = f'''
+        SELECT * FROM matchups
+        WHERE hero_id = ?
+        ORDER BY win_rate {order}
+    '''
+    cursor.execute(query, (hero_id,))
+    matchups = cursor.fetchall()
+    
     conn.close()
+    
+    # If no matchups are found, return a message
+    if not matchups:
+        return jsonify({"message": "No matchups found for the given hero_id."}), 404
+    
+    # Convert the query result to a list of dictionaries
+    matchups_list = [dict(row) for row in matchups]
+    
+    return jsonify(matchups_list)
 
-    # Convert the result into a JSON serializable format
-    result = [dict(row) for row in matchups]
+# Initialize database if needed (optional)
+# def init_db():
+#     conn = get_db_connection()
+#     cursor = conn.cursor()
+#     cursor.execute('''
+#     CREATE TABLE IF NOT EXISTS heroes (
+#         id INTEGER PRIMARY KEY AUTOINCREMENT,
+#         name TEXT NOT NULL
+#     )
+#     ''')
+    
+#     cursor.execute('''
+#     CREATE TABLE IF NOT EXISTS matchups (
+#         id INTEGER PRIMARY KEY AUTOINCREMENT,
+#         hero_id INTEGER NOT NULL,
+#         hero_name TEXT NOT NULL,
+#         disadvantage_percentage REAL NOT NULL,
+#         win_rate REAL NOT NULL,
+#         matches INTEGER NOT NULL,
+#         created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+#         FOREIGN KEY(hero_id) REFERENCES heroes(id)
+#     )
+#     ''')
+    
+#     conn.commit()
+#     conn.close()
 
-    # Return the results
-    return jsonify(result)
+# Initialize database before the first request (optional)
+# @app.before_first_request
+# def setup_db():
+#     # init_db()
 
 if __name__ == '__main__':
     app.run(debug=True)
-

@@ -1,6 +1,6 @@
-https://www.dotabuff.com/heroes/alchemist/counters
+# Define variables at the top
+@hero_id = 1
+@order = asc
 
-
-
-### Get All Hero Matchups
-GET http://localhost:13800/api/api/hero-matchups?hero_name=HeroName&variable=best
+### Get All Hero Matchups for a Specific Hero ID in Ascending Order
+GET http://localhost:5000/matchups?hero_id={{hero_id}}&order={{order}}
