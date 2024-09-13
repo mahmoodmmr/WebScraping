@@ -1,6 +1,10 @@
 # Define variables at the top
-@hero_id = 1
+@hero_id = 2
 @order = asc
 
 ### Get All Hero Matchups for a Specific Hero ID in Ascending Order
 GET http://localhost:5000/matchups?hero_id={{hero_id}}&order={{order}}
+
+
+### Get All Hero Matchups for a Specific Hero ID in Ascending Order
+GET https://webscraping-1-qlmc.onrender.com/matchups?hero_id={{hero_id}}&order={{order}}
