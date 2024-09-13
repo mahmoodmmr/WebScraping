@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 import sqlite3
+# from flask_caching import Cache
+import os
 
 app = Flask(__name__)
+# cache = Cache(app, config={'CACHE_TYPE': 'simple', 'CACHE_DEFAULT_TIMEOUT': 3600})
 
 # Function to get a database connection
 def get_db_connection():
@@ -11,6 +14,7 @@ def get_db_connection():
 
 # Route to get matchups by hero_id and sort by win rate
 @app.route('/matchups', methods=['GET'])
+# @cache.cached()
 def get_matchups():
     hero_id = request.args.get('hero_id')
     order = request.args.get('order', 'asc')  # default to ascending order if not provided
@@ -78,4 +82,5 @@ def get_matchups():
 #     # init_db()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))  # Use port from environment variable or default to 5000
+    app.run(host='0.0.0.0', port=port)
