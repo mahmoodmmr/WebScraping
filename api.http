@@ -1,5 +1,5 @@
 # Define variables at the top
-@hero_id = 2
+@hero_id = 1
 @order = asc
 
 ### Get All Hero Matchups for a Specific Hero ID in Ascending Order
