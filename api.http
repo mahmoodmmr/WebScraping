@@ -6,5 +6,5 @@
 GET http://localhost:5000/matchups?hero_id={{hero_id}}&order={{order}}
 
 
-### Get All Hero Matchups for a Specific Hero ID in Ascending Order
+### Get All Hero Matchups for a Specific Hero ID in Ascending Order deployed on redner.com
 GET https://webscraping-1-qlmc.onrender.com/matchups?hero_id={{hero_id}}&order={{order}}
