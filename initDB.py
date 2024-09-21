@@ -1,19 +1,47 @@
 import sqlite3
 
+connection = sqlite3.connect('heroes.db')
+cursor = connection.cursor()
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS attributes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL
+)
+''')
+
+connection.commit()
+connection.close()
+
+
+connection = sqlite3.connect('heroes.db')
+cursor = connection.cursor()
+# insert 3 rows into the attributes table
+attributes = [('Strength',),('Agility',),('Intelligence',),('Universal',)]
+cursor.executemany('INSERT INTO attributes (name) VALUES (?)', attributes)
+connection.commit()
+connection.close()
+
+
+
 # Step 1: Connect to SQLite database (or create it if it doesn't exist)
 connection = sqlite3.connect('heroes.db')
 
 # Step 2: Create a cursor object to execute SQL queries
 cursor = connection.cursor()
+# cursor.execute('''
+#                ALTER TABLE heroes
+# ADD COLUMN attribute_id INTEGER
+# ''')
 
 # Step 3: Create the heroes table
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS heroes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL
+    attribute_id INTEGER,
+    FOREIGN KEY(attribute_id) REFERENCES attributes(id)
 )
 ''')
-
 # Step 4: Commit changes and close the connection
 connection.commit()
 connection.close()
@@ -192,4 +220,6 @@ CREATE TABLE IF NOT EXISTS matchups (
 # Step 3: Commit changes and close the connection
 connection.commit()
 connection.close()
+
+
 
