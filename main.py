@@ -48,11 +48,12 @@ def insert_matchup(hero_id, hero_name, disadvantage_percentage, win_rate, matche
 
 
 for hero in listOfHeros:
+    print("🚀 ~ hero:", hero[1])
     # response = requests.get(f'https://www.dotabuff.com/heroes/{user}/counters', headers=headers, verify=False)
     # response = requests.get(f'https://www.dotabuff.com/heroes/{user}/counters', headers=headers, verify=certifi.where())
     
     try:
-        response = session.get(f'https://www.dotabuff.com/heroes/{hero[1]}/counters', headers=headers, verify=certifi.where())
+        response = session.get(f'https://www.dotabuff.com/heroes/{hero[4]}/counters', headers=headers, verify=certifi.where())
         print(response.status_code)
 
         # Parse the HTML content
