@@ -55,6 +55,29 @@ def get_matchups():
 
     return jsonify(matchups_list)
 
+# Route to get all heroes
+@app.route('/heroes', methods=['GET'])
+def get_all_heroes():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    # Query to select all heroes from the heroes table
+    query = 'SELECT * FROM heroes'
+    cursor.execute(query)
+    heroes = cursor.fetchall()
+
+    conn.close()
+
+    # If no heroes are found, return a message
+    if not heroes:
+        return jsonify({"message": "No heroes found."}), 404
+
+    # Convert the query result to a list of dictionaries
+    heroes_list = [dict(row) for row in heroes]
+
+    return jsonify(heroes_list)
+
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 12801))
     app.run(host='0.0.0.0', port=port)  # host='0.0.0.0' allows access from the network
