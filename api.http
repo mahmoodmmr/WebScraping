@@ -5,6 +5,21 @@
 ### Get All Hero Matchups for a Specific Hero ID in Ascending Order
 GET http://localhost:5000/matchups?hero_id={{hero_id}}&order={{order}}
 
+### Get All Hero Matchups for a Specific Hero ID in Ascending Order
+GET http://192.168.1.199:12801/matchups?hero_id={{hero_id}}&order={{order}}
+
+### Get All Hero Matchups for a Specific Hero ID in Ascending Order
+GET http://5.201.158.204:12801/matchups?hero_id={{hero_id}}&order={{order}}
+
+
+### Get All Heroes
+GET http://localhost:12801/heroes
+
+
+### Get All Heroes
+GET http://192.168.1.199:12801/heroes
 
 ### Get All Hero Matchups for a Specific Hero ID in Ascending Order deployed on redner.com
 GET https://webscraping-1-qlmc.onrender.com/matchups?hero_id={{hero_id}}&order={{order}}
+
+
