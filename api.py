@@ -57,6 +57,7 @@ def get_matchups():
 
 # Route to get all heroes
 @app.route('/heroes', methods=['GET'])
+@cache.cached(timeout=3600, query_string=True)  # Cache for 1 hour, based on query string
 def get_all_heroes():
     conn = get_db_connection()
     cursor = conn.cursor()
